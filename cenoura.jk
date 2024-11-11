@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco Fresh - Cenoura</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f0f8ff;
+            color: #333;
+        }
+        header {
+            text-align: center;
+            padding: 40px;
+            background-image: url('imagem-cenoura.jpg'); /* Insira o caminho da imagem */
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+        h1 {
+            font-size: 2.8em;
+            margin: 0;
+        }
+        .content {
+            margin-top: 20px;
+            animation: fadeIn 1s ease;
+        }
+        .section, .product-info {
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #e6f7ff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h2, .product-info h3 {
+            color: #ffa500;
+        }
+        p, ul {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #ffa500; /* Cor de destaque */
+            color: #fff;
+        }
+        .footer-content {
+            max-width: 600px;
+            margin: 0 auto;
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+        .footer-content .company-name {
+            font-size: 1.8em;
+            font-weight: bold;
+            color: #ffebcd;
+            margin-top: 10px;
+        }
+
+        /* Animation */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <header>
+         <!-- Footer para o título "Cenoura" -->
+    <footer>
+        <center><h1><p><strong>Cenoura</strong></p></h1></center>
+    </footer>
+    </header>
+
+    <div class="content">
+        <div class="product-info">
+            <h3>Informações do Produto</h3>
+            <p><strong>Processo de Produção:</strong> As cenouras da <strong>Eco Fresh</strong> são cultivadas com total respeito ao meio ambiente. Nossas plantações utilizam práticas agrícolas sustentáveis, com controle rigoroso de pesticidas e fertilizantes, para garantir que cada cenoura que chega até você seja de altíssima qualidade.</p>
+            <p><strong>Armazenamento e Transporte:</strong> Após a colheita, as cenouras são armazenadas em condições ideais para manter sua frescura e sabor por mais tempo. Utilizamos transporte refrigerado para garantir que cada cenoura chegue até você no seu ponto ideal de frescor e sabor.</p>
+        </div>
+
+        <div class="section">
+            <h2>Benefícios da Cenoura</h2>
+            <p>A cenoura é uma raiz nutritiva, rica em benefícios para a saúde. Confira como ela pode contribuir para o seu bem-estar:</p>
+            <ul>
+                <li><strong>Rica em Fibras:</strong> As cenouras são uma ótima fonte de fibras, ajudando a melhorar a digestão e a regular o trânsito intestinal, além de promover a saúde cardiovascular.</li>
+                <li><strong>Fonte de Vitaminas:</strong> A cenoura contém vitamina A e betacaroteno, que são essenciais para a saúde dos olhos, pele e sistema imunológico.</li>
+                <li><strong>Antioxidantes Naturais:</strong> Ricas em antioxidantes, as cenouras ajudam a combater os radicais livres, reduzindo o risco de doenças crônicas como doenças cardíacas e câncer.</li>
+                <li><strong>Baixo Teor Calórico:</strong> Com poucas calorias e rica em nutrientes, a cenoura é uma excelente opção para uma alimentação balanceada.</li>
+                <li><strong>Fortalece o Sistema Imunológico:</strong> Graças à vitamina C e outros nutrientes, a cenoura ajuda a reforçar o sistema de defesa do corpo.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Footer principal com informações sobre a empresa -->
+    <footer>
+        <div class="footer-content">
+            <p class="company-name">Eco Fresh: A Qualidade em Cada Cenoura</p>
+            <p>A <strong>Eco Fresh</strong> é uma empresa comprometida em fornecer as melhores cenouras, cultivadas com práticas sustentáveis e respeitosas com o meio ambiente. Nossa missão é garantir que você tenha acesso a um produto fresco e de alta qualidade, sempre com o máximo de sabor e benefícios à sua saúde.</p>
+            <p>&copy; 2024 Eco Fresh. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
